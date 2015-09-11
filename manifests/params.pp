@@ -11,6 +11,7 @@ class ssh::params {
   $client_enable_ssh_key_sign      = 'yes'
   $client_forward_agent            = 'no'
   $client_hostbased_authentication = 'no'
+  $hostbased_authentication        = 'no'
   $ignore_rhosts                   = 'yes'
   $manage_service                  = true
   $max_auth_retries                = 6
