@@ -10,6 +10,7 @@ class ssh::server (
   $client_alive_interval          = $::ssh::params::client_alive_interval,
   $client_alive_count_max         = $::ssh::params::client_alive_count_max,
   $host_keys                      = $::ssh::params::host_keys,
+  $ignore_rhosts                  = $::ssh::params::ignore_rhosts,
   $macs                           = $::ssh::params::macs,
   $manage_service                 = $::ssh::params::manage_service,
   $max_auth_retries               = $::ssh::params::max_auth_retries,
