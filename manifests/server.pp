@@ -21,6 +21,8 @@ class ssh::server (
   $permit_user_environment        = $::ssh::params::permit_user_environment,
   $gateway_ports                  = $::ssh::params::gateway_ports,
   $print_motd                     = $::ssh::params::print_motd,
+  $print_lastlog                  = $::ssh::params::print_lastlog,
+  $port                           = $::ssh::params::port,
   $pubkey_authentication          = $::ssh::params::pubkey_authentication,
   $subsystem_sftp                 = $::ssh::params::subsystem_sftp,
   $template                       = $::ssh::params::server_config_template,
